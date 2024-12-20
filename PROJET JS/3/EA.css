@@ -1,0 +1,46 @@
+.Resistances
+{
+	display: flex;
+}
+
+.ROne , .RTwo , .RThree , .RFour , .Tension
+{
+	flex: 1;
+}
+
+body
+{
+	background-color: gray;
+}
+
+.confirmer
+{
+	margin-left: 42%;
+	font-size: x-large;
+	border-radius: 5%;
+}
+
+::placeholder
+{
+	text-align: center;
+}
+
+.retour
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: white ;
+	border : 3px solid white  ;
+	opacity: 85% ;
+	border-radius: 5px ;
+	margin-left: 38% ;
+}
+
+.retour:hover
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: black ;
+	border : 3px solid black  ;
+	opacity: 100% ;
+}

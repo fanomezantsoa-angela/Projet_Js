@@ -1,0 +1,48 @@
+body
+{
+	background-color: gray;
+}
+
+form
+{
+	margin-left: 20% ;
+	margin-top: 13% ;
+}
+
+label
+{
+	color: white ;
+}
+
+::placeholder
+{
+	text-align: center;
+}
+
+input
+{
+	text-align: center;
+	font-weight: bolder;
+	border-radius: 7px ;
+	height: 30px ;
+	font-weight: bolder;
+}
+
+.retour
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: white ;
+	border : 3px solid white  ;
+	opacity: 85% ;
+	border-radius: 5px ;
+}
+
+.retour:hover
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: black ;
+	border : 3px solid black  ;
+	opacity: 100% ;
+}

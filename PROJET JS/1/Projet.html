@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Projet.css">
+    <title>2nd DEGREE</title>
+
+    <script>
+
+         
+         function coucou() 
+         {
+         	var a=document.getElementById("VA").value;
+         	var b=document.getElementById("VB").value;
+         	var c=document.getElementById("VC").value;
+
+         	var delta = b*b - 4*a*c;
+         	if (delta>0) 
+         	{
+         		One = ((-b-Math.sqrt(delta))/(2*a));
+         		Two = ((-b+Math.sqrt(delta))/(2*a));
+
+         		alert("S1 = " +One) ;
+         		alert("S2 = " +Two) ;
+                 
+         	}
+         	else if (delta==0)
+         	{
+         		Same = ((-b)/(2*a)) ;
+         		alert("S = " +Same) ;
+                
+         	}
+         	else
+         	{
+         		var pedelta = (-delta) ;
+         		var reel = (-b/(2*a)) ;
+         		
+
+         		alert("S1= " +reel+ "+i" +((Math.sqrt(pedelta))/(2*a) ) ) ;
+         		alert("S2= " +reel+ "-i" +((Math.sqrt(pedelta))/(2*a) ) ) ;
+
+
+
+
+         	}
+         	
+     	 }
+          
+    </script>
+
+</head>
+
+<body>
+
+     <div>
+        <a href="../index.html" class="retour">Menu Principal</a>
+    </div>
+
+    <form class="formulaire">
+        <div class="GroupeInput">
+
+            <input type="text" id="VA" value="" placeholder="A?">
+            <label for="VA" class="labVA">x2</label>
+            <div class="Plus">
+                +
+            </div> 
+            
+            <input type="text" id="VB" value="" placeholder="B?">
+            <label for="VB" class="labVB">x</label> 
+            <div class="Plus1">
+                +
+            </div> 
+           
+            <input type="text" id="VC" value="" placeholder="C?"> 
+            <div class="Equal">
+                = 0
+            </div> 
+            
+            
+        </div><br><br>
+
+        <div class="GroupOutput">
+            <input id="test" type="submit" value="RESOUDRE" onclick="coucou()">
+        </div>
+    </form>
+
+    <p id="coucou">
+
+    <!--<form>
+    	
+    	Valeur 1: <input type="text" id="VA" value=""><br><br>
+    	Valeur 2: <input type="text" id="VB" value=""><br><br>
+    	Valeur 3: <input type="text" id="VC" value=""><br><br>
+
+    	<input type="submit" value="RESOUDRE" onclick="coucou()">
+    </form>-->
+    
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body
+{
+	background-color: gray ;
+}
+
+.retour
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: white ;
+	border : 3px solid white  ;
+	opacity: 85% ;
+	border-radius: 5px ;
+}
+
+.retour:hover
+{
+	text-decoration: none ;
+	font-size: 200% ;
+	color: black ;
+	border : 3px solid black  ;
+	opacity: 100% ;
+}
+
+.GroupeInput
+{
+	display: flex;
+}
+
+#VA , #VB , #VC
+{
+	flex: 4;
+	height:100px;
+	border-radius:5%;
+	font-size: x-large;
+	text-align: center;
+	
+}
+
+.labVA , .labVB , .Plus , .Plus1 , .Equal
+{
+	color: white ; 
+	flex: 1 ;
+	text-align: center ;
+	margin-top: 1.5%;
+	font-size : 300%;
+}
+
+.GroupOutput
+{
+	margin-left: 45% ;
+	height: 100px;
+}
+
+.formulaire
+{
+	margin-top: 15% ;
+}
+
+::placeholder
+{
+	text-align: center;
+	font-size: x-large;
+}
+#test{
+	height:50px;
+	width:180px;
+	position: absolute;
+	left: 42%;
+}

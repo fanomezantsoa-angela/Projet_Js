@@ -1,0 +1,78 @@
+* 
+{
+  box-sizing: border-box ;
+}
+
+body 
+{
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides 
+{
+  display: none;
+  width: 50% ;
+}
+
+/* Slideshow container */
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.active 
+{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade 
+{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade 
+{
+  from 
+  {
+    opacity: .4
+  } 
+  to 
+  {
+    opacity: 1
+  }
+}
+
+.One , .Two ,.Three
+{
+  font-size: 200%;
+  font-style: italic;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) 
+{
+  p 
+  {
+    font-size: 11px
+  }
+}
+
+.retour
+{
+  text-decoration: none ;
+  font-size: 200% ;
+  color: black ;
+  border : 3px solid black  ;
+  opacity: 85% ;
+  border-radius: 5px ;
+}
+
+#Image
+{
+  margin-left: 80% ;
+}

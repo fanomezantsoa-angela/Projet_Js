@@ -1,0 +1,38 @@
+
+a
+{
+	text-decoration: none;
+	font-size: 250% ;
+}
+
+
+
+.link2
+{
+	margin-left: 25% ;
+
+}
+
+.link1:hover , .link2:hover , .link3:hover , .link4:hover
+{
+	color: red ;
+}
+
+.link3
+{
+	margin-left: 50% ;
+}
+
+.link4
+{
+	margin-left: 73% ;
+}
+
+.gauche
+{
+	margin-left: 25% ;
+	margin-right: 25% ;
+	margin-top: 15% ;
+
+}
+
